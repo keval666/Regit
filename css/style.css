@@ -1,0 +1,834 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+/**************************** Header css start ****************************/
+/*************** Header top css start ***************/
+
+.header-top {
+    background-image: linear-gradient(50deg, #232323 50%, rgb(255, 255, 255) 50%);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.212);
+
+}
+
+.header-top .mail {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.header-top .mail i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.header-top .header-social {
+    float: right;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+.header-top .header-social a {
+    color: #232323;
+    margin-right: 15px;
+    align-items: center;
+    font-size: 20px;
+}
+
+/*************** Header top css end ***************/
+
+.navigation .logo img {
+    width: 70%;
+    height: auto;
+}
+
+.navigation li a {
+    color: #232323;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.navigation li a:hover {
+    color: #00adef;
+    border-bottom: solid 1px #232323;
+}
+
+.login-btn {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #00adef;
+    padding: 5px 15px;
+    margin: 0 20px 0 12px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.login-btn:hover {
+    background-color: rgba(0, 172, 240, 0.664);
+}
+
+/**************************** Header css end ****************************/
+
+/**************************** slider css start ****************************/
+.slide-bg {
+    padding: 80px 0;
+    background-color: #00adef;
+    overflow: hidden;
+}
+
+.slider-content h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 800;
+
+}
+
+.slider-content p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+
+}
+
+.slider-content a {
+    padding: 8px 25px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    transition: 0.5s;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+.slider-content a:hover {
+    box-shadow: 0 5px 16px rgba(255, 250, 250, 0.671) !important;
+}
+
+.owl-theme .owl-nav {
+    top: 50%;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 3% !important;
+    font-weight: 800;
+}
+
+.owl-theme .owl-nav button:hover {
+    background-color: inherit !important;
+    transform: scale(1.1);
+}
+
+.owl-theme .owl-nav button {
+    border: 1px solid #fff !important;
+    color: #fff !important;
+    border-radius: 100% !important;
+    height: 35px;
+    width: 35px;
+    margin: 0 !important;
+}
+
+/**************************** slider css end ****************************/
+
+/**************************** section css start ****************************/
+
+.section-content {
+    padding: 80px 0;
+}
+
+.section-content img {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.section-content h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 42px;
+    color: #00adef;
+    font-weight: 800;
+
+}
+.section-content i {
+    color: #00adef;
+    font-size: 12px;
+}
+
+.section-content p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #787878;
+
+}
+
+.section-content .btn-read {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #00adef;
+    padding: 8px 25px;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.section-content .btn-contact {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #232323;
+    padding: 8px 25px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.section-content .btn-read:hover {
+    background-color: #232323;
+}
+
+.section-content .btn-contact:hover {
+    background-color: #00adef;
+}
+
+/**************************** section css end ****************************/
+
+/**************************** we are section css start ****************************/
+
+.we-section {
+    padding: 80px 0;
+    background-color: #f7f7f7;
+}
+
+.we-section h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #00adef;
+    letter-spacing: 1px;
+}
+
+.we-main {
+    margin-top: 50px;
+}
+
+.we-main p {
+    font-size: 14px;
+    color: #787878;
+    margin-top: 2%;
+}
+
+.we-1 {
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid #77777750;
+}
+
+.we-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.we-main .img{
+    display: flex;
+    align-items: center;
+}
+
+/**************************** we are section css end ****************************/
+
+
+/**************************** sign-up end ****************************/
+
+.sign-up-section {
+    padding: 80px 0;
+    background-color: #232323;
+}
+
+.mail-img {
+    position: absolute;
+    max-width: 250px;
+    margin-top: -20px;
+    right: 20px;
+}
+
+
+.sign-up h2 {
+    font-size: 60px;
+    letter-spacing: 2px;
+    line-height: 70px;
+    color: #00adef;
+    font-weight: 800;
+}
+
+.sign-up h3 {
+    width: 366px;
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.type-mail{
+    justify-content:center;
+    align-items:center;
+}
+
+input {
+    width: 450px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    padding-left: 20px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-style: italic;
+    color: #787878;
+    font-weight: 600;
+}
+
+.sign-up .sbtn {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fff;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #00adef;
+    border-style: none;
+    margin-left: 20px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.sbtn::after,
+.sbtn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.sbtn::after {
+    width: 30px;
+    height: 1px;
+    background: white;
+    transform: translateX(-3px);
+    margin-top: 0px;
+}
+
+.sbtn::before {
+    content: "";
+    transform: rotate(-135deg) translateX(50%);
+    width: 11px;
+    height: 11px;
+    background: transparent;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top: -1px;
+}
+
+
+.sbtn:hover {
+    padding: 0px 60px 0px 20px;
+}
+
+.sbtn:hover::after,
+.sbtn:hover::before {
+    opacity: 1;
+    right: 15px;
+}
+
+/**************************** sign-up css end ****************************/
+
+
+/**************************** security section css end ****************************/
+
+.security-section {
+    padding: 80px 0;
+}
+
+.security-section h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #00adef;
+    font-weight: 800;
+    line-height: 42px;
+}
+
+.security-section span {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #232323;
+    font-weight: 600;
+}
+
+.security-section .list {
+    margin: 10px 0 20px 0;
+}
+
+.security-section i {
+    color: #00adef;
+    margin-right: 10px;
+}
+
+.security-section p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #787878;
+    font-weight: 400;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.security-section a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #232323;
+    padding: 8px 25px;
+    border-radius: 9px;
+    transition: 0.5s;
+
+}
+
+.security-section a:hover {
+    background-color: #fff;
+    color: #232323;
+    box-shadow: 0 8px 28px #232323;
+}
+
+.security-section img {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
+/**************************** security section css end ****************************/
+
+
+/**************************** Footer css end ****************************/
+
+.footer-section {
+    padding: 50px 0;
+    background-color: #232323;
+}
+
+.footer-section ul {
+    list-style: none;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0;
+
+}
+
+.footer-section p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+/**************************** footer css end ****************************/
+
+
+
+/**************************** phone media query sart ****************************/
+
+@media (max-width: 767px) {
+    .slider-content p {
+        display: none;
+    }
+
+    .slide-bg {
+        padding: 40px 0;
+    }
+
+    .section-content {
+        padding: 40px 0;
+    }
+
+    .we-section {
+        padding: 40px 0;
+    }
+
+    .sign-up-section {
+        padding: 40px 0;
+    }
+
+    .security-section {
+        padding: 40px 0;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .login-btn {
+        margin: 0;
+    }
+
+    .slide-bg h2 {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    .slider-content a {
+        padding: 4px 12px;
+        font-size: 8px;
+        font-weight: 200;
+        border-radius: 5px;
+        border: 1px solid #fff
+    }
+
+    .section-content h2 {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 21px;
+    }
+
+    .section-content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .section-content .btn-read {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 5px 18px;
+        border-radius: 5px;
+        margin-right: 20px;
+    }
+
+    .section-content .btn-contact {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 5px 18px;
+        border-radius: 5px;
+    }
+
+    .we-main {
+        margin-top: 25px;
+    }
+
+    .we-section h2 {
+        font-size: 18px;
+    }
+
+    .we-main p {
+        font-size: 12px;
+    }
+
+    .mail-img {
+        position: absolute;
+        max-width: 150px;
+        right: 20px;
+    }
+
+    .type-mail{
+        justify-content: start;
+    }
+    .sign-up h2 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        line-height: 35px;
+        font-weight: 600;
+    }
+
+    .sign-up h3 {
+        font-size: 30px;
+        width: auto;
+        letter-spacing: 1px;
+        line-height: 35px;
+        font-weight: 600;
+    }
+
+    input {
+        width: auto;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 20px;
+    }
+
+    .sign-up .sbtn {
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        height: 40px;
+    }
+
+    .security-section h2 {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 21px;
+    }
+
+    .security-section span {
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+    .security-section i {
+        color: #00adef;
+        margin-right: 6px;
+        font-size: 12px;
+    }
+
+    .security-section p {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    .security-section a {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 5px 18px;
+        border-radius: 5px;
+    }
+
+    .security-section .list {
+        margin: 5px 0 10px 0;
+    }
+
+    .footer-section ul li a {
+        font-size: 13px;
+    }
+
+    .footer-section ul li {
+        padding: 0 11px;
+    }
+
+    .footer-section p {
+        font-size: 11px;
+    }
+}
+
+/**************************** phone media query end ****************************/
+
+/**************************** Tablet media query end ****************************/
+
+@media (min-width:768px) and (max-width:1023px) {
+
+
+    .slide-bg {
+        padding: 40px 0;
+    }
+
+    .section-content {
+        padding: 40px 0;
+    }
+
+    .we-section {
+        padding: 40px 0;
+    }
+
+    .sign-up-section {
+        padding: 40px 0;
+    }
+
+    .security-section {
+        padding: 40px 0;
+    }
+
+    .login-btn {
+        margin: 0;
+    }
+
+    .slide-bg h2 {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    .slider-content a {
+        padding: 6px 15px;
+        font-size: 10px;
+        font-weight: 300;
+        border-radius: 5px;
+        border: 1px solid #fff
+    }
+
+    .section-content h2 {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 21px;
+    }
+
+    .section-content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .section-content .btn-read {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 5px 18px;
+        border-radius: 5px;
+        margin-right: 20px;
+    }
+
+    .section-content .btn-contact {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 5px 18px;
+        border-radius: 5px;
+    }
+
+    .we-main {
+        margin-top: 25px;
+    }
+
+    .we-section h2 {
+        font-size: 18px;
+    }
+
+    .we-main p {
+        font-size: 13px;
+    }
+
+    .mail-img {
+        position: absolute;
+        max-width: 150px;
+        right: 20px;
+    }
+
+    .sign-up h2 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        line-height: 35px;
+        font-weight: 600;
+    }
+
+    .sign-up h3 {
+        font-size: 30px;
+        width: auto;
+        letter-spacing: 1px;
+        line-height: 35px;
+        font-weight: 600;
+    }
+
+    input {
+        width: auto;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 20px;
+    }
+
+    .sign-up .sbtn {
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        height: 40px;
+        width: 130px;
+    }
+
+    .security-section h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+
+    .security-section span {
+        font-size: 13px;
+        line-height: 0px;
+    }
+
+    .security-section i {
+        color: #00adef;
+        margin-right: 6px;
+        font-size: 12px;
+    }
+
+    .security-section p {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    .security-section a {
+        padding: 6px 15px;
+        font-size: 10px;
+        font-weight: 300;
+        border-radius: 5px;
+    }
+
+    .security-section .list {
+        margin: 5px 0 10px 0;
+    }
+
+    .footer-section ul li a {
+        font-size: 13px;
+    }
+
+    .footer-section ul li {
+        padding: 0 11px;
+    }
+
+    .footer-section p {
+        font-size: 11px;
+    }
+}
+
+/**************************** Tablet media query end ****************************/
+
+
+/**************************** lrg display media query end ****************************/
+@media (min-width:1024px) {
+    .slider-content h2 {
+        width: 478px;
+    }
+
+    .slider-content p {
+        width: 373px;
+    }
+
+    .we-main p {
+        width: 355px;
+    }
+}
+
+
+/**************************** lrg display media query end ****************************/
